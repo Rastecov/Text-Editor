@@ -70,5 +70,10 @@ function updateText(){
 
     elem.classList.toggle('active');
     console.log(alignType);
-    document.getElementById('text-output').style.textAlign = alignType
+    document.getElementById('text-output').style.textAlign = alignType;
+    let buttonsList = document.getElementsByClassName('align');
+    for(let i = 0; i < buttonsList.length; i++){
+      buttonsList[i].classList.remove('active');
+    }
+    elem.classList.add('active');
   }
