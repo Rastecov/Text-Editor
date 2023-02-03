@@ -70,5 +70,5 @@ function updateText(){
 
     elem.classList.toggle('active');
     console.log(alignType);
-    
+    document.getElementById('text-output').style.textAlign = alignType
   }
