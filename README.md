@@ -1,2 +1,1 @@
-# Text Editor
- 
+The text editor Website has been developed utilizing Javascript, HTML, and CSS technologies. It provides users with the functionality to format their input text, including options for bold, italic, and underline formatting. Additionally, users have the ability to align their text to the center, left, or right.
